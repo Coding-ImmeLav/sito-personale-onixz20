@@ -5,3 +5,8 @@ align-items: center;
 flex-direction: column;
 height: 90vh;
 }
+
+footer{
+   height: 13vh;
+   background-color: black; 
+}
