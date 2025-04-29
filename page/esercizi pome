@@ -1,0 +1,54 @@
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Input età
+        Console.Write("Inserisci l'età della persona: ");
+        int eta = int.Parse(Console.ReadLine());
+
+        // Input professione
+        Console.WriteLine("Inserisci il numero corrispondente alla professione:");
+        Console.WriteLine("1 = Studente");
+        Console.WriteLine("2 = Lavoratore");
+        Console.WriteLine("3 = Altro");
+        int professione = int.Parse(Console.ReadLine());
+
+        // Classificazione per età
+        if (eta < 18)
+        {
+            Console.WriteLine("Minorenne");
+        }
+        else if (eta >= 18 && eta <= 64)
+        {
+            Console.WriteLine("Giovane adulto");
+        }
+        else if (eta >= 65)
+        {
+            Console.WriteLine("Anziano");
+        }
+
+        // Classificazione per professione
+        if (professione == 1 || professione == 2)
+        {
+            Console.WriteLine("La persona è uno Studente o un Lavoratore.");
+        }
+        else
+        {
+            Console.WriteLine("La persona non è né Studente né Lavoratore.");
+        }
+
+        Console.ReadLine(); // Per tenere aperta la console
+    }
+}
+
+
+
+
+
+
+
+
+

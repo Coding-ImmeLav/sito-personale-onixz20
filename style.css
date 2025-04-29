@@ -1,12 +1,44 @@
-.hero{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-height: 90vh;
+.hero {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 90vh;
 }
 
-footer{
-   height: 13vh;
-   background-color: black; 
+/* personalizzo il footer  */
+footer {
+   background-color: cornflowerblue;
+   padding-top: 1%;
+   padding-bottom: 1%;
 }
+
+.mezzo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* seleziono tutti i p che stanno dentro a contatti  */
+.contatti p {
+   display: flex;
+   align-items: center;
+}
+
+.passioni {
+   height: 80vh;
+   background-color: lightskyblue;
+}
+
+.Foglio {
+   padding: 3%;
+   margin-top: 4%;
+   margin-bottom: 4%;
+   border: 1px solid black;
+   }
+
+   .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+   }
